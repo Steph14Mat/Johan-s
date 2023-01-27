@@ -1,0 +1,8 @@
+.tri {
+    li {
+      cursor:pointer;
+      &.active, &:hover {
+        border-bottom:1px solid black;
+      }
+    }
+  }
